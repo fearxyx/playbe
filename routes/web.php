@@ -33,7 +33,7 @@ if($subdomain == 'sms'){
     Route::post('/', function () {
         return redirect()->route('home');
     });
-
+dsfsdf
     Auth::routes();
 
     Route::post('/upload/file', [
